@@ -11,7 +11,7 @@ body {
 nav {
   background: #000;
   color: white;
-  height:30px;
+  height:40px;
 }
 li {
   display: inline;
@@ -26,4 +26,22 @@ li {
   object-fit:cover;
   width: 100vw;
   height: 100.1vh;
+}
+.button{
+    font-family: "Grandstander", cursive;
+    color: black;
+    background-color:#8bcdcd;
+    font-size: x-large;
+    width:150px;
+    height:30px;
+    border-radius:20px;
+animation: fade 5s 1;
+}
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
 }
